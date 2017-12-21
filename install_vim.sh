@@ -20,3 +20,6 @@ make VIMRUNTIMEDIR=/usr/local/share/vim/vim80
 sudo apt install checkinstall
 cd ~/vim
 sudo checkinstall
+
+which vim
+vim --version
