@@ -8,3 +8,5 @@ git clone --recursive https://github.com/davidhalter/jedi-vim.git ~/.vim/bundle/
 git clone git://github.com/Lokaltog/vim-powerline.git ~/.vim/bundle/vim-powerline
 
 git clone https://github.com/klen/python-mode ~/.vim/bundle/python-mode
+
+git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
