@@ -12,7 +12,7 @@ git clone --recursive https://github.com/klen/python-mode ~/.vim/bundle/python-m
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
    
 mkdir -p ~/.vim/ftplugin
- wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
+ curl http://www.vim.org/scripts/download_script.php?src_id=5492 > ~/.vim/ftplugin/python_editing.vim
 
 
 cp .vimrc $HOME/
