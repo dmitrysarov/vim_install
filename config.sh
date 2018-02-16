@@ -15,8 +15,4 @@ git clone https://github.com/vim-scripts/wombat256.vim.git temp_colors
 cp -r temp_colors/colors ~/.vim/
 rm -r temp_colors
 
-mkdir -p ~/.vim/ftplugin
- curl http://www.vim.org/scripts/download_script.php?src_id=5492 > ~/.vim/ftplugin/python_editing.vim
-
-
 cp .vimrc $HOME/
