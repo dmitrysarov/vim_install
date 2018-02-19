@@ -73,8 +73,6 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 " Color scheme
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
-set t_Co=256
-color wombat256mod
 
 
 " Enable syntax highlighting
@@ -196,5 +194,3 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 " mkdir -p ~/.vim/ftplugin
 " wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
-set background=dark
-set t_Co=256
