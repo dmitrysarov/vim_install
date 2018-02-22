@@ -7,12 +7,8 @@ git clone --recursive https://github.com/davidhalter/jedi-vim.git ~/.vim/bundle/
 
 git clone git://github.com/Lokaltog/vim-powerline.git ~/.vim/bundle/vim-powerline
 
-#git clone --recursive https://github.com/klen/python-mode ~/.vim/bundle/python-mode
+git clone https://github.com/vim-python/python-syntax.git ~/.vim/bundle
 
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
    
-git clone https://github.com/vim-scripts/wombat256.vim.git temp_colors
-cp -r temp_colors/colors ~/.vim/
-rm -r temp_colors
-
 cp .vimrc $HOME/

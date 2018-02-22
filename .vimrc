@@ -80,6 +80,7 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 filetype off
 filetype plugin indent on
 syntax on
+let g:python_highlight_all = 1 
 
 " Showing line numbers and length
 set number  " show line numbers
