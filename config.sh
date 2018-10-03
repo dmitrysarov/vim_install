@@ -12,5 +12,6 @@ git clone https://github.com/vim-python/python-syntax.git ~/.vim/bundle/python-s
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 
 #git clone --recursive https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe && cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer
+git clone https://github.com/alvan/vim-closetag.git ~/.vim/bundle/vim-closetag
    
 cp .vimrc $HOME/
