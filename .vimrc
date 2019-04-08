@@ -198,7 +198,7 @@ set nofoldenable
 set encoding=utf-8
 
 " path and file name autocomplation 
-inoremap <C-X><C-F>
+"inoremap <C-X><C-F>
 
 " filenames like *.xml, *.html, *.xhtml, ...
 " " These are the file extensions where this plugin is enabled.
