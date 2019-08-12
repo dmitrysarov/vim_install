@@ -13,5 +13,10 @@ git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 
 #git clone --recursive https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe && cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer
 git clone https://github.com/alvan/vim-closetag.git ~/.vim/bundle/vim-closetag
+
+mkdir -p ~/.vim/colors && cd ~/.vim/colors
+wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
+cd -
+
    
 cp .vimrc $HOME/
