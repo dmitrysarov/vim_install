@@ -8,7 +8,7 @@ cd $HOME/vim/src
              --enable-pythoninterp=yes \
              --with-python-config-dir=/usr/lib/python2.7/config \
              --enable-python3interp \
-             --with-python3-config-dir=/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu \
+             --with-python3-config-dir=/usr/lib/python3.6/config-3.5m-x86_64-linux-gnu \
              --enable-perlinterp=yes \
              --enable-luainterp=yes \
              --enable-gui=gtk2 \
