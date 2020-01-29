@@ -73,6 +73,7 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 " Color scheme
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
+colorscheme wombat256mod
 
 
 " Enable syntax highlighting
@@ -87,7 +88,7 @@ set number  " show line numbers
 set tw=79   " width of document (used by gd)
 set nowrap  " don't automatically wrap on load
 set fo-=t   " don't automatically wrap text when typing
-set colorcolumn=80
+" set colorcolumn=80
 " highlight ColorColumn ctermbg=233
 
 
@@ -118,9 +119,9 @@ set smartcase
 
 " Disable stupid backup and swap files - they trigger too many events
 " for file system watchers
-"" set nobackup
-"" set nowritebackup
-"" set noswapfile
+set nobackup
+set nowritebackup
+set noswapfile
 
 
 " Setup Pathogen to manage your plugins
@@ -128,6 +129,7 @@ set smartcase
 " curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 " Now you can install any plugin into a .vim/bundle/plugin-name/ folder
 call pathogen#infect()
+
 
 
 " ============================================================================
@@ -239,3 +241,4 @@ inoremap {      {}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
 inoremap {{     {
 inoremap {}     {}
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
