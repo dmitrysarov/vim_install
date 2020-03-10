@@ -17,5 +17,10 @@ git clone https://github.com/alvan/vim-closetag.git ~/.vim/bundle/vim-closetag
 git clone git@github.com:roxma/vim-tmux-clipboard.git
 
 git clone git@github.com:tmux-plugins/vim-tmux-focus-events.git
+#mkdir -p ~/.vim/colors && cd ~/.vim/colors
+#wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
+#cd -
+
+mkdir -p ~/.vim/colors && cp wombat256mod.vim ~/.vim/colors
    
 cp .vimrc $HOME/
