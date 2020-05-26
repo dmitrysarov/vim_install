@@ -5,7 +5,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 
 git clone --recursive https://github.com/davidhalter/jedi-vim.git ~/.vim/bundle/jedi-vim
 
-git clone git://github.com/Lokaltog/vim-powerline.git ~/.vim/bundle/vim-powerline
+git clone https://github.com/Lokaltog/vim-powerline.git ~/.vim/bundle/vim-powerline
 
 git clone https://github.com/vim-python/python-syntax.git ~/.vim/bundle/python-syntax
 
