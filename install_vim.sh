@@ -18,6 +18,7 @@
 #mkdir -p $HOME/bin
 #cd $HOME/bin
 #ln -s /usr/local/bin/vim
-apt-get install vim-nox
+apt-get update -y -q
+apt-get install -y --no-install-recommends vim-nox
 which vim
 vim --version
